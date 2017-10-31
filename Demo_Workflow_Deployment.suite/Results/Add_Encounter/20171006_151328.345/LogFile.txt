@@ -1,0 +1,8 @@
+﻿2017-10-06 15:13:28.348 +0530	START		Running Add_Encounter.script
+2017-10-06 15:13:41.973 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:45.361 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:49.255 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:53.149 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:57.039 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:57.918 +0530	EndTestCase		(Duration:"29.564387", Errors:"1", Exceptions:"0", StartTime:"2017-10-06 15:13:28 +0530", Successes:"0", TestCase:"Add_Encounter.script", Warnings:"0")
+2017-10-06 15:13:57.923 +0530	ABORTED		Execution Time 0:00:29 Add_Encounter.script

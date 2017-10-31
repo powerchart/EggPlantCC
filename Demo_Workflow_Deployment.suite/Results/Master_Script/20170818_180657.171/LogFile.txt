@@ -1,0 +1,15 @@
+﻿2017-08-18 18:06:57.184 +0530	START		Running Master_Script.script
+2017-08-18 18:06:57.329 +0530	imagefound	RulesOfRoad	found at (512, 577)	3	on_master_script	Master_Script.script
+2017-08-18 18:06:57.453 +0530	click	RulesOfRoad	at (512, 577)	4	on_master_script	Master_Script.script
+2017-08-18 18:06:58.628 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-08-18 18:07:04.279 +0530	typetext		C:\Program Files\Cerner\RevenueCycle[return]	6	on_rca_login	RCA_Login.script
+2017-08-18 18:07:07.694 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:10.335 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:12.840 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:15.344 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:17.871 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:20.316 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:22.836 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:25.251 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-18 18:07:27.726 +0530	EndTestCase		(Duration:"30.533", Errors:"1", Exceptions:"0", StartTime:"2017-08-18 18:06:57 +0530", Successes:"0", TestCase:"Master_Script.script", Warnings:"0")
+2017-08-18 18:07:27.729 +0530	ABORTED		Execution Time 0:00:30 Master_Script.script

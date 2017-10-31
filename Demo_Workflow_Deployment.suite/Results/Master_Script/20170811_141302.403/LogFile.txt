@@ -1,0 +1,119 @@
+﻿2017-08-11 14:13:02.434 +0530	START		Running Master_Script.script
+2017-08-11 14:13:02.935 +0530	imagefound	Patient_Reg/View	found at (42, 50)	4	on_register_patient	Register_Patient.script
+2017-08-11 14:13:05.165 +0530	click	Patient_Reg/View	at (42, 50)	6	on_register_patient	Register_Patient.script
+2017-08-11 14:13:06.625 +0530	typetext		Auto, 08/11/17 02:13:02[return]	7	on_register_patient	Register_Patient.script
+2017-08-11 14:13:09.666 +0530	imagefound	Patient_Reg/Add_Pat	Unable to Find Image Patient_Reg/Add_Pat	8	on_register_patient	Register_Patient.script
+2017-08-11 14:13:10.513 +0530	imagefound	Patient_Reg/Add_Pat	found at (339, 135)	8	on_register_patient	Register_Patient.script
+2017-08-11 14:13:10.645 +0530	click	Patient_Reg/Add_Pat	at (339, 135)	9	on_register_patient	Register_Patient.script
+2017-08-11 14:13:15.149 +0530	imagefound	Patient_Reg/Facility_Search	found at (69, 111)	10	on_register_patient	Register_Patient.script
+2017-08-11 14:13:15.412 +0530	click	Patient_Reg/Facility_Search	at (69, 111)	11	on_register_patient	Register_Patient.script
+2017-08-11 14:13:16.797 +0530	typetext		Profit Auto Facility1[return]	12	on_register_patient	Register_Patient.script
+2017-08-11 14:13:17.630 +0530	click	Patient_Reg/Sex	at (56, 245)	18	on_register_patient	Register_Patient.script
+2017-08-11 14:13:18.483 +0530	typetext		Male	19	on_register_patient	Register_Patient.script
+2017-08-11 14:13:19.419 +0530	click	Patient_Reg/DateofBirth	at (283, 245)	20	on_register_patient	Register_Patient.script
+2017-08-11 14:13:20.184 +0530	typetext		T	21	on_register_patient	Register_Patient.script
+2017-08-11 14:13:21.000 +0530	click	Patient_Reg/Insurance	at (176, 55)	22	on_register_patient	Register_Patient.script
+2017-08-11 14:13:21.716 +0530	imagefound	Patient_Reg/AddInsurance_Button	found at (76, 80)	23	on_register_patient	Register_Patient.script
+2017-08-11 14:13:21.820 +0530	click	Patient_Reg/AddInsurance_Button	at (76, 80)	24	on_register_patient	Register_Patient.script
+2017-08-11 14:13:23.975 +0530	click	Patient_Reg/Insurance	at (116, 55)	26	on_register_patient	Register_Patient.script
+2017-08-11 14:13:24.713 +0530	imagefound	Patient_Reg/SearchforHealthPlan	found at (71, 114)	27	on_register_patient	Register_Patient.script
+2017-08-11 14:13:24.866 +0530	click	Patient_Reg/SearchforHealthPlan	at (71, 114)	29	on_register_patient	Register_Patient.script
+2017-08-11 14:13:25.588 +0530	typetext		[return]	30	on_register_patient	Register_Patient.script
+2017-08-11 14:13:32.055 +0530	waitfor	(TEXT:"Starts With")	found at (362, 63)	32	on_register_patient	Register_Patient.script
+2017-08-11 14:13:33.194 +0530	click	(TEXT:"Starts With")	at (362, 63)	33	on_register_patient	Register_Patient.script
+2017-08-11 14:13:36.454 +0530	click	(TEXT:"Search by Plan Name")	at (380, 89)	35	on_register_patient	Register_Patient.script
+2017-08-11 14:13:37.930 +0530	typetext		Profit Medicare	37	on_register_patient	Register_Patient.script
+2017-08-11 14:13:38.672 +0530	typetext		[return]	38	on_register_patient	Register_Patient.script
+2017-08-11 14:13:42.536 +0530	waitfor	(TEXT:"Unspecified Address")	found at (270, 178)	40	on_register_patient	Register_Patient.script
+2017-08-11 14:13:43.960 +0530	click	(TEXT:"Unspecified Address")	at (270, 178)	41	on_register_patient	Register_Patient.script
+2017-08-11 14:13:46.221 +0530	click	Patient_Reg/Select	at (808, 698)	43	on_register_patient	Register_Patient.script
+2017-08-11 14:13:46.967 +0530	imagefound	Patient_Reg/SearchforHealthPlan	found at (71, 114)	44	on_register_patient	Register_Patient.script
+2017-08-11 14:13:47.123 +0530	click	Patient_Reg/AddressLine1	at (69, 260)	45	on_register_patient	Register_Patient.script
+2017-08-11 14:13:48.338 +0530	typetext		Address line one	46	on_register_patient	Register_Patient.script
+2017-08-11 14:13:49.209 +0530	click	Patient_Reg/AddressLine2	at (401, 262)	47	on_register_patient	Register_Patient.script
+2017-08-11 14:13:50.182 +0530	typetext		Address Line two	48	on_register_patient	Register_Patient.script
+2017-08-11 14:13:51.146 +0530	click	Patient_Reg/ZipCode	at (267, 305)	49	on_register_patient	Register_Patient.script
+2017-08-11 14:13:52.040 +0530	typetext		112233	50	on_register_patient	Register_Patient.script
+2017-08-11 14:13:52.923 +0530	click	Patient_Reg/City	at (436, 305)	51	on_register_patient	Register_Patient.script
+2017-08-11 14:13:53.762 +0530	typetext		City	52	on_register_patient	Register_Patient.script
+2017-08-11 14:13:54.598 +0530	click	Patient_Reg/State	at (703, 304)	53	on_register_patient	Register_Patient.script
+2017-08-11 14:13:55.359 +0530	typetext		U	54	on_register_patient	Register_Patient.script
+2017-08-11 14:13:56.255 +0530	click	Patient_Reg/County	at (918, 304)	55	on_register_patient	Register_Patient.script
+2017-08-11 14:13:57.017 +0530	typetext		A	56	on_register_patient	Register_Patient.script
+2017-08-11 14:13:57.922 +0530	click	Patient_Reg/LNav1	at (29, 637)	57	on_register_patient	Register_Patient.script
+2017-08-11 14:13:58.780 +0530	click	Patient_Reg/LNav2	at (29, 637)	58	on_register_patient	Register_Patient.script
+2017-08-11 14:13:59.761 +0530	click	Patient_Reg/BeqinDate	at (53, 372)	59	on_register_patient	Register_Patient.script
+2017-08-11 14:14:00.519 +0530	typetext		T	60	on_register_patient	Register_Patient.script
+2017-08-11 14:14:01.438 +0530	click	Patient_Reg/OK	at (880, 665)	61	on_register_patient	Register_Patient.script
+2017-08-11 14:14:02.370 +0530	imagefound	Patient_Reg/Save	found at (877, 630)	62	on_register_patient	Register_Patient.script
+2017-08-11 14:14:02.745 +0530	click	Patient_Reg/Save	at (877, 630)	63	on_register_patient	Register_Patient.script
+2017-08-11 14:14:04.834 +0530	imagefound	Patient_Reg/View	found at (42, 50)	64	on_register_patient	Register_Patient.script
+2017-08-11 14:14:06.881 +0530	imagefound	Add_Encounter/Encounters_Icon	found at (482, 57)	4	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:07.037 +0530	click	Add_Encounter/Encounters_Icon	at (482, 57)	5	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:08.211 +0530	imagefound	Add_Encounter/Encounters_Tab	found at (197, 139)	6	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:09.317 +0530	click	Add_Encounter/Encounters_Tab	at (197, 139)	8	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:10.480 +0530	click	Add_Encounter/Add_Icon	at (936, 137)	10	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:12.705 +0530	imagefound	Patient_Reg/Facility_Search	found at (69, 143)	11	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:14.913 +0530	click	Patient_Reg/Facility_Search	at (69, 143)	13	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:16.316 +0530	typetext		Profit Auto Facility1[return]	14	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:17.161 +0530	click	Add_Encounter/EncounterType_Txt	at (49, 263)	15	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:18.163 +0530	typetext		Inpatient	16	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:19.055 +0530	click	Add_Encounter/BeginDate	at (290, 260)	17	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:19.775 +0530	typetext		T	18	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:20.663 +0530	click	Add_Encounter/Resource	at (43, 304)	19	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:21.616 +0530	typetext		Avvaru, Naveen[return]	20	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:22.694 +0530	click	Patient_Reg/Save	at (877, 600)	21	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:23.454 +0530	imagefound	Add_Encounter/Encounter_Num	found at (570, 142)	22	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:28.750 +0530	readtext		(627,257)
+2017-08-11 14:14:28.750 +0530	Log		800	25	on_add_encounter	Add_Encounter.script
+2017-08-11 14:14:29.818 +0530	imagefound	Charge_Posting/Icon	found at (25, 258)	4	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:29.959 +0530	click	Charge_Posting/Icon	at (25, 258)	5	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:35.037 +0530	imagefound	Charge_Posting/BatchAlias	found at (409, 338)	8	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:35.117 +0530	waitfor	Charge_Posting/BatchAlias	found at (409, 338)	13	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:35.297 +0530	click	Charge_Posting/BatchAlias	at (409, 338)	14	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:36.167 +0530	typetext		57902	15	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:37.000 +0530	click	Patient_Reg/OK	at (478, 380)	16	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:38.180 +0530	click	Charge_Posting/EncounterSearch	at (84, 209)	18	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:38.916 +0530	typetext		[return]	19	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:39.632 +0530	imagefound	Charge_Posting/Name	found at (79, 76)	20	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:39.731 +0530	click	Charge_Posting/Name	at (79, 76)	21	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:40.909 +0530	typetext		Auto, 08/11/17 02:13:02[return]	22	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:42.060 +0530	click	Charge_Posting/Pat_Search	at (30, 56)	24	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:44.072 +0530	Log		Auto, 08/11/17 02:13:02	26	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:44.072 +0530	Log		800	27	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:44.494 +0530	click	(TEXT:"Auto, 08/11/17 02:13:02")	at (345, 144)	28	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:45.818 +0530	click	(TEXT:"800")	at (275, 428)	30	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:47.089 +0530	click	Patient_Reg/Select	at (786, 693)	32	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:49.242 +0530	waitfor	Charge_Posting/ServiceItem	found at (412, 499)	34	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:49.460 +0530	click	Charge_Posting/ServiceItem	at (412, 499)	35	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:50.261 +0530	typetext		81002[return]	36	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:55.337 +0530	imagefound	Charge_Posting/Alert	Unable to Find Image Charge_Posting/Alert within 5.00 seconds	40	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:56.620 +0530	click	Charge_Posting/AddChargeEvent	at (114, 668)	47	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:58.597 +0530	waitfor	Charge_Posting/SubmitCharges	found at (108, 678)	49	on_charge_posting	Charge_Posting.script
+2017-08-11 14:14:59.573 +0530	click	Charge_Posting/SubmitCharges	at (108, 678)	50	on_charge_posting	Charge_Posting.script
+2017-08-11 14:15:00.717 +0530	click	Charge_Posting/Drop_Down	at (543, 417)	52	on_charge_posting	Charge_Posting.script
+2017-08-11 14:15:01.810 +0530	waitfor	Patient_Reg/View	found at (42, 50)	3	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:01.984 +0530	click	Patient_Reg/View	at (42, 50)	4	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:03.476 +0530	typetext		Auto, 08/11/17 02:13:02[return]	5	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:24.160 +0530	imagefound	(TEXT:"Auto, 08/11/17 02:13:02")	Unable to Find Image (TEXT:"Auto, 08/11/17 02:13:02") within 20.00 seconds	12	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:24.419 +0530	click	Charge_Posting/Pat_Search	at (120, 564)	13	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:25.781 +0530	waitfor	(TEXT:"Auto, 08/11/17 02:13:02")	found at (353, 175)	14	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:26.031 +0530	imagefound	(TEXT:"Auto, 08/11/17 02:13:02")	found at (353, 175)	15	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:26.482 +0530	click	(TEXT:"Auto, 08/11/17 02:13:02")	at (353, 175)	18	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:32.284 +0530	click	(TEXT:"800")	at (283, 439)	20	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:37.661 +0530	click	Patient_Reg/Select	at (786, 693)	22	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:48.148 +0530	click	(TEXT:"Encounters")	at (490, 55)	26	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:51.338 +0530	click	Add_Encounter/EncounterDetails_Tab	at (309, 137)	28	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:51.354 +0530	waitfor	Add_Encounter/Edit_Enc	found at (871, 138)	29	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:52.195 +0530	click	Add_Encounter/Edit_Enc	at (871, 138)	30	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:52.289 +0530	waitfor	Add_Encounter/EndDate	found at (480, 375)	31	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:53.044 +0530	click	Add_Encounter/EndDate	at (480, 375)	32	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:53.804 +0530	typetext		T	33	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:55.830 +0530	waitfor	Add_Encounter/Save_Icon	found at (892, 137)	35	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:15:55.987 +0530	click	Add_Encounter/Save_Icon	at (892, 137)	36	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:16:16.005 +0530	imagefound	Add_Encounter/Edit_Enc	found at (871, 138)	38	on_discharge_patient	Discharge_Patient.script
+2017-08-11 14:16:16.224 +0530	click	Patient_Reg/View	at (42, 50)	3	on_release_all_holds	Release_All_Holds.script
+2017-08-11 14:16:18.678 +0530	typetext		Auto, 08/11/17 02:13:02[return]	5	on_release_all_holds	Release_All_Holds.script
+2017-08-11 14:16:21.253 +0530	click	(TEXT:"Auto, 08/11/17 02:13:02")	at (353, 175)	8	on_release_all_holds	Release_All_Holds.script
+2017-08-11 14:16:56.996 +0530	EndTestCase		(Duration:"234.546", Errors:"1", Exceptions:"0", StartTime:"2017-08-11 14:13:02 +0530", Successes:"0", TestCase:"Master_Script.script", Warnings:"0")
+2017-08-11 14:16:57.056 +0530	ABORTED		Execution Time 0:03:54 Master_Script.script

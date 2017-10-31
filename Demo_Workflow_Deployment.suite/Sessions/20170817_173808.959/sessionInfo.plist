@@ -1,0 +1,19 @@
+{
+    commandList = "[{captureRect:[77, 677, 162, 697], command:@\"Click\", eventNum:2, hotSpot:[90, 83], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"Repositories\", searchType:@\"Smooth\", waitFor:@\"13.4\"}, OCRText:@\"Repositories\", screenShotFile:@\"Screen0002.png\", useOCR:@\"NO\", waitFor:@\"13.4\"}, {captureRect:[211, 647, 234, 665], command:@\"Click\", eventNum:4, hotSpot:[222, 111], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"esearchvalue\", searchType:@\"Smooth\", waitFor:@\"6.9\"}, OCRHotSpot:[160, 7], OCRText:@\"e search value\", screenShotFile:@\"Screen0004.png\", useOCR:@\"NO\", waitFor:@\"6.9\"}, {captureRect:[347, 646, 462, 663], command:@\"Click\", eventNum:6, hotSpot:[368, 113], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"tvoefiltertext\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRHotSpot:[106, 24], OCRText:@\"tvoe filter text\", screenShotFile:@\"Screen0006.png\", useOCR:@\"NO\"}, {captureRect:[578, 284, 648, 302], command:@\"Click\", eventNum:8, hotSpot:[613, 469], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"image0001\", searchType:@\"Tolerant\", waitFor:@\"\"}, screenShotFile:@\"Screen0008.png\"}]";
+    generatedCommands = (
+	"Click (Image:\"Repositories\", WaitFor:13.4)",
+	"Click (Image:\"esearchvalue\", WaitFor:6.9)",
+	"Click \"tvoefiltertext\"",
+	"Click \"image0001\""
+    );
+    locallyAddedFiles = {
+	"" = (
+	    "Repositories.png",
+	    "esearchvalue.png",
+	    "tvoefiltertext.png",
+	    "image0001.png"
+	);
+    };
+    sessionType = turboSession;
+    unnamedImageCount = <*I0>;
+}

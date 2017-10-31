@@ -1,0 +1,23 @@
+{
+    commandList = "[{captureRect:[5, 681, 162, 701], command:@\"Click\", eventNum:2, hotSpot:[106.889353, 80], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"IfeProjectsRepositories\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRText:@\"Ife] Projects \\u00a3=) Repositories\", screenShotFile:@\"Screen0002.png\", useOCR:@\"NO\"}, {captureRect:[53, 649, 129, 662], command:@\"Click\", eventNum:4, hotSpot:[219.123173, 108], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"esearchvalue\", searchType:@\"Smooth\", waitFor:@\"24.3\"}, OCRHotSpot:[166, 11], OCRText:@\"e search value\", screenShotFile:@\"Screen0004.png\", useOCR:@\"NO\", waitFor:@\"24.3\"}, {captureRect:[361, 647, 442, 660], command:@\"Click\", eventNum:6, hotSpot:[365, 117], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"JAlllocations\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRText:@\"J All locations\", screenShotFile:@\"Screen0006.png\", useOCR:@\"NO\"}, {captureRect:[596, 286, 634, 299], command:@\"Click\", eventNum:8, hotSpot:[623, 475], imageName:@\"\", infoDict:{folderPath:@\"/\", imageName:@\"Cancel\", searchType:@\"Smooth\", waitFor:@\"\"}, OCRText:@\"Cancel\", screenShotFile:@\"Screen0008.png\", useOCR:@\"NO\"}]";
+    generatedCommands = (
+	"Click \"IfeProjectsRepositories\"",
+	"Click (Image:\"esearchvalue\", WaitFor:24.3)",
+	"Click \"JAlllocations\"",
+	"Click \"Cancel\""
+    );
+    locallyAddedFiles = {
+	"" = (
+	    "IfeProjectsRepositories.png",
+	    "esearchvalue.png",
+	    "JAlllocations.png",
+	    "Cancel.png",
+	    "IfeProjectsRepositories.png",
+	    "esearchvalue.png",
+	    "JAlllocations.png",
+	    "Cancel.png"
+	);
+    };
+    sessionType = turboSession;
+    unnamedImageCount = <*I0>;
+}

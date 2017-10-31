@@ -1,0 +1,31 @@
+﻿--Connect "SJ030319_Cloud"
+
+If ImageFound(Image:"RulesOfRoad",Waitfor:10) then
+	Click (Image:"RulesOfRoad",WaitFor:20)
+End if
+
+
+global patName, EncNum, UName, Pwd, Domain
+
+set d to date
+log d
+set t to time(abbrev)
+put " " after d
+put t after d
+put "Auto, " before d
+set patName to d
+
+
+set HP1 to "Profit Medicare"
+set HP2 to "Profit Medical"
+set FacName to "Profit Auto Facility1"
+set EncType to "Inpatient"
+set BillItem to "l1010"
+
+--RCA_Login "sv035131", "sunil", "15STPENG"
+Register_Patient patName, FacName, HP1
+Add_Encounter FacName, EncType
+Charge_Posting patName, BillItem, EncNum
+Discharge_Patient patName, EncNum
+Release_All_Holds patName, EncNum
+

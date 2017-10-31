@@ -1,0 +1,13 @@
+﻿2017-08-10 23:07:49.587 +0530	START		Running Add_Encounter.script
+2017-08-10 23:07:49.687 +0530	imagefound	Add_Encounter/Encounters_Icon	found at (482, 57)	4	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:49.819 +0530	click	Add_Encounter/Encounters_Icon	at (482, 57)	5	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:50.550 +0530	imagefound	Add_Encounter/Encounters_Tab	found at (197, 139)	6	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:51.688 +0530	click	Add_Encounter/Encounters_Tab	at (197, 139)	8	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:52.835 +0530	click	Add_Encounter/Add_Icon	at (936, 137)	10	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:55.853 +0530	imagefound	Patient_Reg/Facility_Search	found at (69, 143)	11	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:57.027 +0530	click	Patient_Reg/Facility_Search	at (69, 143)	13	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:57.769 +0530	typetext		[return]	14	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:58.638 +0530	click	Add_Encounter/EncounterType_Txt	at (49, 263)	15	on_add_encounter	Add_Encounter.script
+2017-08-10 23:07:59.348 +0530	typetext			16	on_add_encounter	Add_Encounter.script
+2017-08-10 23:08:05.146 +0530	EndTestCase		(Duration:"15.559", Errors:"1", Exceptions:"0", StartTime:"2017-08-10 23:07:49 +0530", Successes:"0", TestCase:"Add_Encounter.script", Warnings:"0")
+2017-08-10 23:08:05.146 +0530	ABORTED		Execution Time 0:00:16 Add_Encounter.script

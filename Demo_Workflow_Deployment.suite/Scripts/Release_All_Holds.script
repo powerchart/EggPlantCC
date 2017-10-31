@@ -1,0 +1,34 @@
+﻿params patName, EncNum
+
+Click "Patient_Reg/View"
+wait 2
+TypeText patName, return
+wait 2
+--Click text: "Search", searchRectangle:(68,35,261,716)
+Click text: patName, searchRectangle:(263,130,950,369)
+Click text: EncNum, searchRectangle:(264,404,949,656)
+Wait 1
+Click  "Patient_Reg/Select"
+Wait 5
+Click text: "Patient Account"
+wait 2
+WaitFor 8.0, "Add_Encounter/Encounter_Hyperlink"
+Click "Add_Encounter/Encounter_Hyperlink"
+wait 5
+WaitFor 8.0, "Add_Encounter/Drop_Down_Hold"
+Click "Add_Encounter/Drop_Down_Hold"
+wait 2
+Click (Image:"Add_Encounter/BillingHolds", WaitFor:10)
+wait 5
+Repeat while ImageFound(Image:"Add_Encounter/HoldsYes", WaitFor:10)
+	RightClick "Add_Encounter/Hold"
+	if(ImageFound(Image:"Add_Encounter/RemoveBillingHold", WaitFor:10))
+		Click (Image:"Add_Encounter/RemoveBillingHold", WaitFor:5)
+		if(ImageFound(Image:"Add_Encounter/Areyousureyouwanttoremovethish", WaitFor:10))
+			Click text: "Yes"
+			wait 5
+		end if
+	end if
+End repeat
+
+

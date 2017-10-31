@@ -1,0 +1,30 @@
+﻿params FacName, EncType
+global EncNum
+
+wait 10
+Wait until ImageFound("Add_Encounter/Encounters_Icon")
+Click (Image:"Add_Encounter/Encounters_Icon")
+Wait until ImageFound("Add_Encounter/Encounters_Tab")
+wait 1
+Click "Add_Encounter/Encounters_Tab"
+wait 1
+Click "Add_Encounter/Add_Icon"
+Wait until ImageFound("Patient_Reg/Facility_Search")
+wait 2
+Click "Patient_Reg/Facility_Search"
+TypeText FacName, return
+Click "Add_Encounter/EncounterType_Txt"
+TypeText EncType
+Click "Add_Encounter/BeginDate"
+TypeText "T"
+Click "Add_Encounter/Resource"
+TypeText "Avvaru, Naveen", return
+Click "Patient_Reg/Save"
+Wait until ImageFound("Add_Encounter/Encounter_Num")
+wait 5
+put ReadText("Add_Encounter/Encounter_Num") into EncNum
+log EncNum
+wait 1
+
+
+

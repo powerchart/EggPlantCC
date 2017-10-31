@@ -1,0 +1,15 @@
+﻿2017-10-06 15:46:03.809 +0530	START		Running RCA_Login.script
+2017-10-06 15:46:03.940 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-10-06 15:46:09.135 +0530	typetext		Inventorysearch[return]	6	on_rca_login	RCA_Login.script
+2017-10-06 15:46:13.529 +0530	click	UsernameIYTEM	at (484, 306)	7	on_rca_login	RCA_Login.script
+2017-10-06 15:46:14.646 +0530	imagefound	RCA_Login/Username	found at (451, 312)	8	on_rca_login	RCA_Login.script
+2017-10-06 15:46:14.728 +0530	typetext		system	11	on_rca_login	RCA_Login.script
+2017-10-06 15:46:15.616 +0530	click	RCA_Login/Password	at (443, 364)	12	on_rca_login	RCA_Login.script
+2017-10-06 15:46:16.342 +0530	typetext		[controlKey]a	13	on_rca_login	RCA_Login.script
+2017-10-06 15:46:17.128 +0530	typetext		system	14	on_rca_login	RCA_Login.script
+2017-10-06 15:46:18.026 +0530	click	RCA_Login/Domain	at (450, 420)	15	on_rca_login	RCA_Login.script
+2017-10-06 15:46:19.312 +0530	click	RCA_Login/OK	at (466, 464)	16	on_rca_login	RCA_Login.script
+2017-10-06 15:46:42.503 +0530	imagefound	Unabletoloadc	found at (396, 373)	23	on_rca_login	RCA_Login.script
+2017-10-06 15:46:43.099 +0530	click	image0001	at (699, 438)	24	on_rca_login	RCA_Login.script
+2017-10-06 15:46:43.157 +0530	EndTestCase		(Duration:"39.342458", Errors:"0", Exceptions:"0", StartTime:"2017-10-06 15:46:03 +0530", Successes:"1", TestCase:"RCA_Login.script", Warnings:"0")
+2017-10-06 15:46:43.258 +0530	SUCCESS		Execution Time 0:00:39 RCA_Login.script

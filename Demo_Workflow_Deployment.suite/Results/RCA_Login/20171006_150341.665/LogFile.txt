@@ -1,0 +1,13 @@
+﻿2017-10-06 15:03:41.667 +0530	START		Running RCA_Login.script
+2017-10-06 15:03:41.796 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-10-06 15:03:47.286 +0530	typetext		C:\Program Files\Cerner\RevenueCycle[return]	6	on_rca_login	RCA_Login.script
+2017-10-06 15:03:51.407 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:03:55.557 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:03:59.449 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:04:02.762 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:04:06.175 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:04:10.075 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:04:13.666 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:04:16.890 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-10-06 15:04:17.775 +0530	EndTestCase		(Duration:"36.10238", Errors:"1", Exceptions:"0", StartTime:"2017-10-06 15:03:41 +0530", Successes:"0", TestCase:"RCA_Login.script", Warnings:"0")
+2017-10-06 15:04:17.780 +0530	ABORTED		Execution Time 0:00:36 RCA_Login.script

@@ -1,0 +1,4 @@
+﻿2017-08-10 21:13:05.290 +0530	START		Running Master_Script.script
+2017-08-10 21:13:05.592 +0530	imagefound	Patient_Reg/View	found at (42, 50)	4	on_register_patient	Register_Patient.script
+2017-08-10 21:13:06.885 +0530	EndTestCase		(Duration:"1.589", Errors:"1", Exceptions:"0", StartTime:"2017-08-10 21:13:05 +0530", Successes:"0", TestCase:"Master_Script.script", Warnings:"0")
+2017-08-10 21:13:06.888 +0530	ABORTED		Execution Time 0:00:01 Master_Script.script

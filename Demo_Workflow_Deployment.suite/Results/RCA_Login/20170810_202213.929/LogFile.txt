@@ -1,0 +1,5 @@
+﻿2017-08-10 20:22:13.936 +0530	START		Running RCA_Login.script
+2017-08-10 20:22:14.054 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-08-10 20:22:19.551 +0530	typetext		C:\Program Files\Cerner\RevenueCycle[return]	6	on_rca_login	RCA_Login.script
+2017-08-10 20:22:39.658 +0530	EndTestCase		(Duration:"25.715", Errors:"0", Exceptions:"0", StartTime:"2017-08-10 20:22:13 +0530", Successes:"1", TestCase:"RCA_Login.script", Warnings:"0")
+2017-08-10 20:22:39.698 +0530	SUCCESS		Execution Time 0:00:26 RCA_Login.script

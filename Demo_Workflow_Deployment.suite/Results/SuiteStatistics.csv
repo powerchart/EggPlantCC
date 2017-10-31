@@ -1,0 +1,4 @@
+﻿Script,Last Status,Runs,Fails,First Run,Last Run,Avg Time(Success)
+Master_Script_Deployment,Failure,1,1,2017-08-22 12:54:03 +0530,2017-08-22 12:54:03 +0530,0:00:00
+RCA_Login,Success,11,0,2017-08-10 20:20:03 +0530,2017-10-06 15:48:46 +0530,0:00:25
+Master_Script,Failure,23,18,2017-08-10 20:19:05 +0530,2017-08-18 18:06:47 +0530,0:00:00

@@ -1,0 +1,50 @@
+﻿params patName, EncNum
+
+WaitFor 5, "Patient_Reg/View"
+Click (Image:"Patient_Reg/View", WaitFor:5)
+TypeText patName, return
+
+--Repeat until ImageFound(20, (text:"Auto, 08/11/17 12:18:23", searchRectangle:(262,163,949,390)))
+--	Click "Charge_Posting/Pat_Search"
+--    WaitFor 20, (text: "Auto, 08/11/17 12:18:23", searchRectangle:(262,163,949,390))
+--End repeat
+
+Repeat until ImageFound(20, (text:patName, searchRectangle:(262,163,949,390)))
+	Click "Charge_Posting/Pat_Search"
+	WaitFor 20, (text: patName, searchRectangle:(262,163,949,390))
+End repeat
+
+
+Click text: patName, searchRectangle:(262,129,949,376)
+wait 5
+Click text: EncNum, searchRectangle:(262,397,949,656)
+wait 5
+Click  "Patient_Reg/Select"
+wait 10
+
+
+Click text: "Encounters", searchRectangle:(390,31,1021,72)
+wait 3
+Click "Add_Encounter/EncounterDetails_Tab"
+WaitFor 8.0, "Add_Encounter/Edit_Enc"
+Click (Image:"Add_Encounter/Edit_Enc", WaitFor:5)
+WaitFor 8.0, "Add_Encounter/EndDate"
+Click "Add_Encounter/EndDate"
+TypeText "T"
+wait 2
+WaitFor 8.0, "Add_Encounter/Save_Icon"
+Click "Add_Encounter/Save_Icon"
+wait 20
+Wait until ImageFound(30, "Add_Encounter/Edit_Enc")
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="RCA_Login.script" package="Demo_Workflow.suite" timestamp="2017-08-10 20:22:13.929 +0530"
+ tests="1" successes="1" errors="0" time="25.727000">
+  <properties>
+   <property name="RunDate" value="2017-08-10 20:22:13.929 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="RCA_Login.script" assertions="1" successes="1" errors="0" time="25.715">
+  </testcase>
+ </testsuite>
+</testsuites>

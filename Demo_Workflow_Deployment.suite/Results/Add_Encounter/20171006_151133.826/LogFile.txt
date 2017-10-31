@@ -1,0 +1,31 @@
+﻿2017-10-06 15:11:33.829 +0530	START		Running Add_Encounter.script
+2017-10-06 15:11:47.048 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:11:50.444 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:11:53.836 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:11:57.729 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:01.788 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:05.175 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:09.063 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:12.952 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:16.840 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:20.727 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:24.628 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:28.010 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:30.915 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:33.841 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:37.248 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:40.636 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:44.525 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:47.916 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:51.802 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:55.700 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:12:59.137 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:02.593 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:05.983 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:09.871 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:13.762 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:17.165 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:20.554 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:24.448 +0530	imagefound	Add_Encounter/Encounters_Icon	Unable to Find Image Add_Encounter/Encounters_Icon	5	on_add_encounter	Add_Encounter.script
+2017-10-06 15:13:26.360 +0530	EndTestCase		(Duration:"112.52726", Errors:"1", Exceptions:"0", StartTime:"2017-10-06 15:11:33 +0530", Successes:"0", TestCase:"Add_Encounter.script", Warnings:"0")
+2017-10-06 15:13:26.366 +0530	ABORTED		Execution Time 0:01:52 Add_Encounter.script

@@ -1,0 +1,99 @@
+﻿
+params patName, FacName, HP1
+
+Wait until ImageFound("Patient_Reg/View")
+wait 2
+Click "Patient_Reg/View"
+TypeText PatName, return
+Wait until ImageFound("Patient_Reg/Add_Pat")
+Click "Patient_Reg/Add_Pat"
+Wait until ImageFound("Patient_Reg/Facility_Search")
+Click "Patient_Reg/Facility_Search"
+TypeText FacName, return
+
+--If  ImageFound("Patient_Reg/Facility_Search_popup") then
+--Click (Text: FacName),searchRectangle:(252,2,772,667)-- caseSensitive = no
+--End If
+
+Click "Patient_Reg/Sex"
+TypeText "Male"
+Click "Patient_Reg/DateofBirth"
+TypeText "T"
+Click "Patient_Reg/Insurance"
+Wait until ImageFound("Patient_Reg/AddInsurance_Button")
+Click "Patient_Reg/AddInsurance_Button"
+wait 2
+Click "Patient_Reg/Insurance"
+Wait until ImageFound("Patient_Reg/SearchforHealthPlan")
+--Click "Patient_Reg/SearchforHealthPlan",return
+Click (image:"Patient_Reg/SearchforHealthPlan")
+TypeText return
+wait 5
+WaitFor 3, (Text:"Starts With")
+Click (Text:"Starts With")
+wait 1
+Click (Text:"Search by Plan Name")
+wait 1
+TypeText HP1
+TypeText Return
+wait 2
+WaitFor 2, (Text:"Unspecified Address")
+Click (Text:"Unspecified Address")
+wait 2
+Click "Patient_Reg/Select"
+Wait until ImageFound("Patient_Reg/SearchforHealthPlan")
+Click (Image:"Patient_Reg/AddressLine1")
+TypeText "Address line one"
+Click (Image:"Patient_Reg/AddressLine2")
+TypeText "Address Line two"
+Click (Image:"Patient_Reg/ZipCode")
+TypeText "112233"
+Click (Image:"Patient_Reg/City")
+TypeText "City"
+Click (Image:"Patient_Reg/State")
+TypeText "U"
+--Click (Image:"Patient_Reg/County")
+--TypeText "A"
+
+--Click "Patient_Reg/LNav1"
+--Click "Patient_Reg/LNav2"
+--SwipeLeft 
+--SwipeLeft 
+--MoveTo (10,10)
+--SwipeLeft "Patient_Reg/BeqinDate"
+--wait 2
+
+Click "Patient_Reg/BeqinDate"
+TypeText "T",
+Click (Image:"Patient_Reg/OK")
+Wait until ImageFound("Patient_Reg/Save")
+Click "Patient_Reg/Save"
+Wait until ImageFound("Patient_Reg/View")
+wait 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<statistics>
+ <script name="Master_Script_Deployment">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>1</NumberOfRuns>
+  <NumberOfFails>1</NumberOfFails>
+  <FirstRun>2017-08-22 12:54:03 +0530</FirstRun>
+  <LastRun>2017-08-22 12:54:03 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+ <script name="RCA_Login">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>11</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2017-08-10 20:20:03 +0530</FirstRun>
+  <LastRun>2017-10-06 15:48:46 +0530</LastRun>
+  <TotalTimeOnSuccess>282.585346</TotalTimeOnSuccess>
+ </script>
+ <script name="Master_Script">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>23</NumberOfRuns>
+  <NumberOfFails>18</NumberOfFails>
+  <FirstRun>2017-08-10 20:19:05 +0530</FirstRun>
+  <LastRun>2017-08-18 18:06:47 +0530</LastRun>
+  <TotalTimeOnSuccess>0.000000</TotalTimeOnSuccess>
+ </script>
+</statistics>

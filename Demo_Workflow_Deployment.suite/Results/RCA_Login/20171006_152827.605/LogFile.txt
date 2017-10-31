@@ -1,0 +1,4 @@
+﻿2017-10-06 15:28:27.607 +0530	START		Running RCA_Login.script
+2017-10-06 15:28:27.718 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-10-06 15:28:29.772 +0530	EndTestCase		(Duration:"2.159088", Errors:"1", Exceptions:"0", StartTime:"2017-10-06 15:28:27 +0530", Successes:"0", TestCase:"RCA_Login.script", Warnings:"0")
+2017-10-06 15:28:29.776 +0530	ABORTED		Execution Time 0:00:02 RCA_Login.script

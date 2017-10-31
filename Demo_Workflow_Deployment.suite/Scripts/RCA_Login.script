@@ -1,0 +1,38 @@
+﻿
+Params UserName, Pwd, Domain
+
+typeText windowsKey, "r"
+Wait 5
+TypeText "Inventorysearch",return
+Click (Image:"UsernameIYTEM", WaitFor:5)
+Wait until ImageFound("RCA_Login/Username")
+
+//Typetext controlKey & a
+TypeText "system"
+Click "RCA_Login/Password"
+Typetext controlKey & a
+TypeText  "system"
+Click "RCA_Login/Domain"
+Click "RCA_Login/OK"
+
+If text ="Change" then
+	Click "Acknowledge"
+	
+End if
+
+If text = "Unable to load" then
+	Click "image0001"
+End if
+
+
+
+
+
+
+
+
+
+
+
+
+

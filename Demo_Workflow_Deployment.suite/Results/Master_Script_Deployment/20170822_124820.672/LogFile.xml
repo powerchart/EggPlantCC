@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Master_Script_Deployment.script" package="Demo_Workflow_Deployment.suite" timestamp="2017-08-22 12:48:20.672 +0530"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2017-08-22 12:48:20.672 +0530"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="Master_Script_Deployment.script" assertions="1" successes="0" errors="1" time="71.47">
+  </testcase>
+ </testsuite>
+</testsuites>

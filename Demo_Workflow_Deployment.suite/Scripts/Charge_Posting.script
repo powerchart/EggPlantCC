@@ -1,0 +1,58 @@
+﻿params patName, BillItem, EncNum
+put (random(1, 999999)) into batchAlias
+
+Wait until ImageFound("5","Charge_Posting/Icon")
+Click "Charge_Posting/Icon"
+wait 5
+
+if(ImageFound("5","Charge_Posting/BatchAlias"))
+	// yipee
+else
+	Click "Charge_Posting/Add_Icon"
+end if
+WaitFor 5, "Charge_Posting/BatchAlias"
+Click "Charge_Posting/BatchAlias"
+TypeText batchAlias
+Click( Image:"Patient_Reg/OK")
+wait 1
+Click "Charge_Posting/EncounterSearch"
+TypeText return
+Wait until ImageFound("Charge_Posting/Name")
+Click "Charge_Posting/Name"
+TypeText patName, return
+wait 5
+--Click text:"Search",searchRectangle:(66,40,255,629)
+--Click (Image:"Charge_Posting/Pat_Search"),searchRectangle:(66,40,255,629)
+wait 2
+--log patName
+--log EncNum
+Click text:patName,searchRectangle:(259,112,954,346)
+wait 1
+Click text:EncNum, searchRectangle:(259,395,958,667)
+wait 1
+Click "Patient_Reg/Select"
+wait 2
+WaitFor 10, "Charge_Posting/ServiceItem"
+Click (Image: "Charge_Posting/ServiceItem")
+TypeText BillItem,return
+
+
+
+If ImageFound(5, "Charge_Posting/Alert") then
+	Click (Image: "Charge_Posting/ServiceItem_Search")
+	WaitFor 8.0, "Patient_Reg/Select"
+	Click (Image: "Patient_Reg/Select")
+End if
+
+wait 1
+click (Image: "Charge_Posting/AddChargeEvent")
+wait 1
+WaitFor 5, "Charge_Posting/SubmitCharges"
+Click (Image: "Charge_Posting/SubmitCharges")
+wait 1
+Click (Image:"Charge_Posting/Drop_Down")
+wait 1
+
+
+
+

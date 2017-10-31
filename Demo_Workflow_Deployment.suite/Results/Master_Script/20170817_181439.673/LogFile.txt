@@ -1,0 +1,32 @@
+﻿2017-08-17 18:14:39.689 +0530	START		Running Master_Script.script
+2017-08-17 18:14:49.847 +0530	imagefound	RulesOfRoad	Unable to Find Image RulesOfRoad	3	on_master_script	Master_Script.script
+2017-08-17 18:14:50.021 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-08-17 18:14:56.377 +0530	typetext		C:\Program Files\Cerner\RevenueCycle[return]	6	on_rca_login	RCA_Login.script
+2017-08-17 18:15:00.265 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:03.597 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:07.015 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:10.348 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:13.851 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:17.207 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:20.594 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:24.034 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:27.437 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:30.802 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:30.871 +0530	imagefound	RCA_Login/Username	found at (432, 330)	7	on_rca_login	RCA_Login.script
+2017-08-17 18:15:31.040 +0530	click	RCA_Login/Username	at (432, 330)	8	on_rca_login	RCA_Login.script
+2017-08-17 18:15:31.790 +0530	typetext		[controlKey]a	9	on_rca_login	RCA_Login.script
+2017-08-17 18:15:32.787 +0530	typetext		[backspace]sv035131	10	on_rca_login	RCA_Login.script
+2017-08-17 18:15:34.103 +0530	click	RCA_Login/Password	at (430, 376)	11	on_rca_login	RCA_Login.script
+2017-08-17 18:15:34.872 +0530	typetext		[controlKey]a	12	on_rca_login	RCA_Login.script
+2017-08-17 18:15:35.787 +0530	typetext		[backspace]sunil	13	on_rca_login	RCA_Login.script
+2017-08-17 18:15:36.703 +0530	click	RCA_Login/Domain	at (435, 424)	14	on_rca_login	RCA_Login.script
+2017-08-17 18:15:37.472 +0530	typetext		[controlKey]a	15	on_rca_login	RCA_Login.script
+2017-08-17 18:15:38.588 +0530	typetext		[backspace]15STPENG	16	on_rca_login	RCA_Login.script
+2017-08-17 18:15:39.443 +0530	click	RCA_Login/OK	at (459, 478)	17	on_rca_login	RCA_Login.script
+2017-08-17 18:15:42.543 +0530	imagefound	Patient_Reg/View	Unable to Find Image Patient_Reg/View	4	on_register_patient	Register_Patient.script
+2017-08-17 18:15:44.928 +0530	imagefound	Patient_Reg/View	Unable to Find Image Patient_Reg/View	4	on_register_patient	Register_Patient.script
+2017-08-17 18:15:47.327 +0530	imagefound	Patient_Reg/View	Unable to Find Image Patient_Reg/View	4	on_register_patient	Register_Patient.script
+2017-08-17 18:15:49.706 +0530	imagefound	Patient_Reg/View	Unable to Find Image Patient_Reg/View	4	on_register_patient	Register_Patient.script
+2017-08-17 18:15:52.211 +0530	imagefound	Patient_Reg/View	Unable to Find Image Patient_Reg/View	4	on_register_patient	Register_Patient.script
+2017-08-17 18:15:54.476 +0530	EndTestCase		(Duration:"74.787", Errors:"1", Exceptions:"0", StartTime:"2017-08-17 18:14:39 +0530", Successes:"0", TestCase:"Master_Script.script", Warnings:"0")
+2017-08-17 18:15:54.476 +0530	ABORTED		Execution Time 0:01:15 Master_Script.script

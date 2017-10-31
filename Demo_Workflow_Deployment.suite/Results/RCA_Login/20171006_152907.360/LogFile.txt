@@ -1,0 +1,16 @@
+﻿2017-10-06 15:29:07.363 +0530	START		Running RCA_Login.script
+2017-10-06 15:29:07.471 +0530	typetext		[windowsKey]r	4	on_rca_login	RCA_Login.script
+2017-10-06 15:29:12.685 +0530	typetext		Inventorysearch[return]	6	on_rca_login	RCA_Login.script
+2017-10-06 15:29:16.798 +0530	click	UsernameIYTEM	at (484, 306)	7	on_rca_login	RCA_Login.script
+2017-10-06 15:29:21.061 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:24.506 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:27.943 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:30.878 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:34.820 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:38.744 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:42.680 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:46.613 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:50.227 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:53.469 +0530	imagefound	RCA_Login/Username	Unable to Find Image RCA_Login/Username	8	on_rca_login	RCA_Login.script
+2017-10-06 15:29:55.419 +0530	EndTestCase		(Duration:"48.051746", Errors:"1", Exceptions:"0", StartTime:"2017-10-06 15:29:07 +0530", Successes:"0", TestCase:"RCA_Login.script", Warnings:"0")
+2017-10-06 15:29:55.423 +0530	ABORTED		Execution Time 0:00:48 RCA_Login.script
